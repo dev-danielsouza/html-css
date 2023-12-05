@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Imagem</title>
+  </head>
+  <body>
+    <h1>Teste da Imagem</h1>
+    <p>
+      Tente abir essa imagem em dispositivos diferentes, ou aumente-diminua a
+      resolução do seu navegador.
+    </p>
+    <p>voltar para - <a href="index.html">home</a></p>
+
+    <picture>
+      <source
+        media="(max-width: 850px )"
+        srcset="img/home/foto-200.jpg"
+        type="image/jpeg"
+      />
+      <source
+        media="(max-width: 1250px )"
+        srcset="img/home/foto-800.jpg"
+        type="image/jpeg"
+      />
+      <img src="img/home/foto-1200.jpg" alt="imagem dinâmica-1200" />
+    </picture>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links</title>
+
+  <style>
+
+    /*
+        SELETORES CSS(PERSONALIZADOS):
+        (#) --> id
+        (.) --> class
+        (:) --> pseudo-class
+        (::) --> pseudo-element
+        (>) --> children
+
+    */
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a {
+      color: red;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:visited {
+      color: darkred;
+    }
+
+    a:hover {
+      color: #000;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: yellow;
+    }
+
+    .especial {
+      background-color: #ff00006e;
+    }
+
+    .especial:hover {
+      background-color: #000;
+      color: white;
+    }
+
+    .especial::before {
+      content: '⇛ ';
+    }
+
+    .especial::after {
+      content: ' ⇚';
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Personalizando Links</h1>
+  <ul>
+    <li><a href="https://github.com/dev-danielsouza" rel="external" target="_blank" hreflang="pt-BR">Repositório GitHub</a></li>
+    <li><a href="https://youtube.com/cursoemvideo" rel="external" target="_blank" hreflang="pt-BR" class="especial">Canal do YouTube</a></li>
+    <li><a href="https://www.cursoemvideo.com" rel="external" target="_blank" hreflang="pt-BR" class="especial">Site do Curso em Vídeo</a></li>
+  </ul>
+
+</body>
+
+</html>

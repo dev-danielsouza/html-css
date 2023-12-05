@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Layout</title>
+</head>
+
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e1d444ac;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: auto;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000;
+}
+
+nav > a {
+  padding: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #000;
+  background-color: #E1D344;
+  border: 1px solid #000;
+  border-radius: 0.2em;
+}
+
+nav > a:hover {
+  background-color: #333224;
+  color: white;
+}
+
+main {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000;
+  height: 780px;
+}
+
+main > h1 {
+  display: inline;
+  margin: 0px;
+  padding: 5px;
+}
+
+.section-01 {
+  background-color: #7e7e7942;
+  width: 500px;
+  height: 740px;
+  border: 1px solid #000;
+}
+
+section > h2 {
+ padding-left: 5px;
+}
+
+.section-01 > article {
+  display: block;
+  padding: 10px;
+  background-color: #e1d33681;
+  height: 50%;
+  margin: 10px;
+  border: 1px solid #000;
+}
+
+.section-02 > article {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #e1d33681;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000;
+  height: 235px;
+}
+
+footer {
+  background-color: white;
+  display: block;
+  height: 80px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000;
+}
+
+footer > p {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+</style>
+
+<body>
+  
+  <header>
+
+    <h1>Header</h1>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Notícias</a>
+      <a href="#">Notícias</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
+
+  </header>
+
+  <main>
+    <h1>Main</h1>
+
+    <section class="section-01">
+
+      <h2>Section</h2>
+
+      <article>
+        
+      </article>
+
+      <section class="section-02">
+        <article>
+          <h2>Article</h2>
+  
+            <aside>
+              <h3>Aside</h3>
+            </aside>
+      </section>
+
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Daniel Souza - Todos os Direitos reservados&copy;</p>
+  </footer>
+
+</body>
+
+</html>

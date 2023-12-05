@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/icon/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <title>Imagem Flexível</title>
+  </head>
+
+  <body>
+    <h1>Imagem Flexível</h1>
+    <p>
+      Você esta vendo a imagem completa? Experimenta ampliar o tamanho da sua
+      janela para aproveitar a melhor experiência! &#x1F525;
+    </p>
+
+    <picture>
+      <source
+        media="(max-width: 790px )"
+        srcset="assets/img/paisagem-265.jpg"
+        type="image/jpeg"
+      />
+      <source
+        media="(max-width: 1250px )"
+        srcset="assets/img/paisagem-740.jpg"
+        type="image/jpeg"
+      />
+      <img
+        src="assets/img/paisagem-1200.jpg"
+        alt="paisagem com uma casa de fundo"
+      />
+    </picture>
+  </body>
+</html>
