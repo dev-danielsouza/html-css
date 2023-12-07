@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Fundo fixo de tela</title>
   <style>
     body {
       height: 100vh;
@@ -12,11 +12,19 @@
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
+      background-attachment: fixed;
+
+      /* Shorthand - background
+        color > image > position > repeat > [size] > attachment
+      */
+
+      background: #000 url(components/images/wallpaper002.jpg) center center no-repeat fixed;
+      background-size: cover;
     }
 
     main {
       background-color: white;
-      width: 400px;
+      max-width: 700px;
       padding: 20px;
       border: 1px solid black;
       border-radius: 10px;
@@ -32,6 +40,10 @@
 <body>
   <main>
     <h1>Teste de imagem de fundo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, animi illum iure ullam quos ad veniam eaque. Delectus eligendi facilis, necessitatibus, quaerat facere voluptates incidunt odio, eveniet nihil rem deserunt? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque ipsam explicabo odio illo animi iste sed neque consequuntur quasi voluptates cupiditate facilis minima, nobis temporibus sint excepturi dolores. Possimus, modi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, adipisci consectetur enim ut voluptates illum eveniet sapiente temporibus tempora a ea aspernatur, odit sint. Cumque temporibus perferendis nulla quidem hic!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, animi illum iure ullam quos ad veniam eaque. Delectus eligendi facilis, necessitatibus, quaerat facere voluptates incidunt odio, eveniet nihil rem deserunt? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque ipsam explicabo odio illo animi iste sed neque consequuntur quasi voluptates cupiditate facilis minima, nobis temporibus sint excepturi dolores. Possimus, modi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, adipisci consectetur enim ut voluptates illum eveniet sapiente temporibus tempora a ea aspernatur, odit sint. Cumque temporibus perferendis nulla quidem hic!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, animi illum iure ullam quos ad veniam eaque. Delectus eligendi facilis, necessitatibus, quaerat facere voluptates incidunt odio, eveniet nihil rem deserunt? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque ipsam explicabo odio illo animi iste sed neque consequuntur quasi voluptates cupiditate facilis minima, nobis temporibus sint excepturi dolores. Possimus, modi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, adipisci consectetur enim ut voluptates illum eveniet sapiente temporibus tempora a ea aspernatur, odit sint. Cumque temporibus perferendis nulla quidem hic!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, animi illum iure ullam quos ad veniam eaque. Delectus eligendi facilis, necessitatibus, quaerat facere voluptates incidunt odio, eveniet nihil rem deserunt? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque ipsam explicabo odio illo animi iste sed neque consequuntur quasi voluptates cupiditate facilis minima, nobis temporibus sint excepturi dolores. Possimus, modi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, adipisci consectetur enim ut voluptates illum eveniet sapiente temporibus tempora a ea aspernatur, odit sint. Cumque temporibus perferendis nulla quidem hic!</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, animi illum iure ullam quos ad veniam eaque. Delectus eligendi facilis, necessitatibus, quaerat facere voluptates incidunt odio, eveniet nihil rem deserunt? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque ipsam explicabo odio illo animi iste sed neque consequuntur quasi voluptates cupiditate facilis minima, nobis temporibus sint excepturi dolores. Possimus, modi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, adipisci consectetur enim ut voluptates illum eveniet sapiente temporibus tempora a ea aspernatur, odit sint. Cumque temporibus perferendis nulla quidem hic!</p>
   </main>
 </body>
