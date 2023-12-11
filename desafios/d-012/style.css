@@ -19,6 +19,11 @@
   text-decoration: none;
 }
 
+body {
+  min-height: 100vh;
+  background-color: rgba(169, 169, 169, 0.167);
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -35,13 +40,16 @@ header {
 .header-title {
   font-size: 3rem;
   font-family: var(--font-emphasis);
+  font-variant: small-caps;
 }
 
 .header-subtitle {
   font-family: var(--font-emphasis);
+  font-variant: small-caps;
 }
 
 .author-link {
+  font-family: var(--font-paragraph);
   color: #ccccccc4;
 }
 
@@ -72,6 +80,7 @@ main {
 }
 
 .cordel-paragraph-2 {
+  background-color: #000;
   background-image: url(components/images/background001.jpg);
   background-position: right center;
   background-repeat: no-repeat;
@@ -99,6 +108,7 @@ main {
 }
 
 .cordel-paragraph-5 {
+  background-color: #000;
   background-image: url(components/images/background002.jpg);
   background-position: right center;
   background-repeat: no-repeat;
@@ -133,6 +143,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 1.50rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .copy {
@@ -141,6 +152,7 @@ footer {
 }
 
 .copy-link {
+  font-family: var(--font-paragraph);
   color: #ccccccc4;
   font-weight: bold;
 }
