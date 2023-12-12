@@ -8,7 +8,7 @@
 
 :root {
   --header-color: #000;
-  --paragraph-background: #00000037;
+  --paragraph-background: #00000065;
 
   --font-emphasis: 'Kalnia', serif;
   --font-paragraph: 'Roboto', sans-serif;
@@ -94,6 +94,7 @@ main {
   text-align: left;
   padding: 10rem 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-shadow: 1px 1px 0 #000;
 }
 
 .cordel-paragraph-2 > p {
@@ -122,6 +123,7 @@ main {
   text-align: left;
   padding: 10rem 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-shadow: 1px 1px 0 #000;
 }
 
 .cordel-paragraph-5 > p {
@@ -172,5 +174,6 @@ footer {
 
   .copy {
     text-align: center;
+    font-size: 0.9rem;
   }
 }
