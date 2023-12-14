@@ -45,6 +45,7 @@
       .films {
         background-color: white;
       }
+      
     </style>
   </head>
   <body>
@@ -54,12 +55,12 @@
                 <tr>
                   <th scope="col">Grupo</th>
                   <th scope="col">Nomes</th>
-                  <th scope="col" colspan="3">Filmes</th>
+                  <th scope="colgroup" colspan="3">Filmes</th>
                 </tr>
           </thead>
           <tbody>
                 <tr>
-                    <th rowspan="3" scope="row">Mulheres</th>
+                    <th rowspan="3" scope="rowgroup">Mulheres</th>
                     <td class="women">Ana Maria Santos</td>
                     <td class="films">Alien</td>
                     <td class="films">Rambo</td>
@@ -81,7 +82,7 @@
                 </tr>
 
                 <tr>
-                    <th rowspan="3" scope="row">Homens</th>
+                    <th rowspan="3" scope="rowgroup">Homens</th>
                     <td class="men">Bruno Mendonça</td>
                     <td class="films">Intocáveis</td>
                     <td class="films">Amnésia</td>
@@ -102,6 +103,12 @@
                     <td class="films">Toy Story</td>
                 </tr>
           </tbody>
+          <tfoot>
+            <tr>
+              <th scope="row" colspan="4">Total</th>
+              <td class="num">18</td>
+            </tr>
+          </tfoot>
     </table>
   </body>
 </html>
