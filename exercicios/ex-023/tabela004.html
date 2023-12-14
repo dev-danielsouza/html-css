@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício de Tabelas</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 500px;
+    }
+
+    caption {
+      border: 1px solid #000;
+      padding: 10px;
+      font-weight: bold;
+      background-color: lightcyan;
+      border-bottom: none;
+    }
+
+    th, td {
+      border: 1px solid #000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: rgba(100, 148, 237, 0.438);
+    }
+    
+    .col-nome {
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+    <table>
+      <colgroup>
+        <col class="col-nome">
+        <col class="col-sexo">
+        <col class="col-idade">
+        <col class="col-profissao">
+      </colgroup>
+
+      <caption>Cadastro</caption>
+
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissão</th>
+      </tr>
+
+      <tr>
+        <td>Ana Maria</td>
+        <td>F</td>
+        <td>25</td>
+        <td>Jornalista</td>
+      </tr>
+
+      <tr>
+        <td>Marcos</td>
+        <td>M</td>
+        <td>30</td>
+        <td>Progamador</td>
+      </tr>
+
+      <tr>
+        <td>Daniel</td>
+        <td>M</td>
+        <td>22</td>
+        <td>Ator</td>
+      </tr>
+
+      <tr>
+        <td>Fernanda</td>
+        <td>F</td>
+        <td>26</td>
+        <td>Maquiadora</td>
+      </tr>
+
+      <tr>
+        <td>Vanessa</td>
+        <td>F</td>
+        <td>30</td>
+        <td>Empregada Doméstica</td>
+      </tr>
+
+      <tr>
+        <td>Adriano</td>
+        <td>M</td>
+        <td>20</td>
+        <td>Analista de Dados</td>
+      </tr>
+    </table>
+</body>
+</html>
