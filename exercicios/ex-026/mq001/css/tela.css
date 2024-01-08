@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* Estilo para Telas */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+body {
+  min-width: 360px;
+  max-width: 900px;
+  margin: auto;
+}
+
+main {
+  background-color: rgba(211, 211, 211, 0.331);
+}
+
+header {
+  background-color: rgba(224, 255, 255, 0.718);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  padding: 1rem;
+}
+
+p {
+  text-align: justify;
+  text-indent: 1rem;
+  padding: 0 1rem 1rem 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(61, 84, 84, 0.268);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+  padding: 1rem;
+}
+
+ul > li {
+  cursor: pointer;
+}
