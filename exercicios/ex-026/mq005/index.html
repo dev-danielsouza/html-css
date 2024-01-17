@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
     <title>media Query</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
             <h1>Meu Site</h1>
             <span id="hamburguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
@@ -42,6 +43,15 @@
             }
             else {
                 menu.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            }
+            else {
+                menu.style.display = 'none'  
             }
         }
     </script>
